@@ -68,3 +68,7 @@ k6 run \
 go install go.k6.io/xk6/cmd/xk6@latest
 3. Build with xk6: https://github.com/LeonAdato/xk6-output-statsd?tab=readme-ov-file
 xk6 build --with github.com/LeonAdato/xk6-output-statsd
+
+# Testing sites
+https://dummyjson.com/docs/auth
+https://reqres.in/api/login
