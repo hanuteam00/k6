@@ -1,0 +1,12 @@
+{
+  "name": "k6",
+  "version": "1.0.0",
+  "description": "brew install k6",
+  "main": "rampVUs_UpDown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
