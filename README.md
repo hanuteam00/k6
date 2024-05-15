@@ -1,3 +1,6 @@
+# Tutorial
+https://www.youtube.com/playlist?list=PLFGoYjJG_fqoum_IoPpbLN3AwWIWtr6hq
+
 # Install k6
 brew install k6
 
@@ -72,3 +75,16 @@ xk6 build --with github.com/LeonAdato/xk6-output-statsd
 # Testing sites
 https://dummyjson.com/docs/auth
 https://reqres.in/api/login
+
+## Script#4 - Shared & Per VUs Iterations With K6 || Performance Testing
+case 1: share VUs iterations (https://grafana.com/docs/k6/latest/using-k6/scenarios/executors/shared-iterations/)
+vu = 10
+iters = 20
+-> each vu = 200/10 ~ 20 iters (sẽ có cái chạy nhanh cái chạy châm để đạt target)
+
+case 2: per VUs iterations
+vu = 10
+iters = 20
+-> each vu = 200/10 = 20 iters (sẽ phân bổ đều để đạt target)
+
+## 90th percentile and 95th percentile	
